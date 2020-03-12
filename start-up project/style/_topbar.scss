@@ -1,0 +1,40 @@
+$bodycolor:#FFFFFF;
+$textcolor:black;
+
+.top-nav{
+    display: flex;
+    justify-content: space-around;
+    padding:40px;
+    background-color:$textcolor;
+    font-family: 'Sarabun', sans-serif;
+
+        .logo{
+            
+            img{
+            width:100px;
+            height:100px;
+            }
+
+        }
+
+        .menu{
+            text-decoration: none;
+        
+        ul li{
+            text-decoration: none;
+            list-style: none;
+            float: left;
+            padding-right: 10px;
+
+            a{
+                text-decoration: none;
+                color: $bodycolor;
+                padding-left: 70px;
+            }  
+        }
+
+        ul li.active{
+            color: white;
+        }
+    }
+}

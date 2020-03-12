@@ -1,0 +1,56 @@
+.product{
+    padding-top: 10rem;
+    display: flex;
+    justify-content: space-evenly;
+
+    .watchnep-card{
+        text-align: center;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0, 0.4);
+        transition: 0.3s;
+        height: 250px;
+        width: 250px;
+
+        h1{
+            text-transform: uppercase;
+            font-size: large;
+        }   
+    }
+
+    .watchnep-card:hover{
+        box-shadow: 0 8px 16px 0 rgba(0,0,0, 0.6);
+    }
+
+    .geniusacademy-card{
+        text-align: center;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0, 0.4);
+        transition: 0.3s;
+        height: 250px;
+        width: 250px;
+
+        h1{
+            text-transform: uppercase;
+            font-size: large;
+        }   
+    }
+
+    .geniusacademy-card:hover{
+        box-shadow: 0px 8px 16px 0 rgba(0,0,0, 0.6);
+    }
+
+    .nepalpolfarm-card{
+        text-align: center;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0, 0.4);
+        transition: 0.3s;
+        height: 250px;
+        width: 250px;
+
+        h1{
+            text-transform: uppercase;
+            font-size: large;
+        }   
+    }
+
+    .nepalpolfarm-card:hover{
+        box-shadow: 0 8px 16px 0 rgba(0,0,0, 0.6);
+    }
+}

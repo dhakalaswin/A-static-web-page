@@ -1,0 +1,32 @@
+.about{
+    display: flex;
+
+    h1{
+        text-align: center;
+    }
+    padding-top: 10rem;
+    display: flex;
+    .image{
+        padding-left: 6rem;
+
+        img{
+            box-shadow: 0 4px 8px 0 rgba(0,0,0, 0.4);
+            transition: 0.3s;
+            height: 400px;
+            width: 600px;
+        }
+        img:hover{
+            box-shadow: 0 8px 16px 0 rgba(0,0,0, 0.6);
+
+        }
+    }
+    
+    .text-area{
+        margin: 8px 40px;
+        padding-left: 2rem;
+
+        p{
+            padding: 20px 10px;
+        }
+    }
+}

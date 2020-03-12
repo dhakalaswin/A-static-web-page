@@ -1,0 +1,14 @@
+@import'topbar';
+@import'banner';
+@import"about";
+@import'contact';
+@import'product';
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
